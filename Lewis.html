@@ -8,15 +8,18 @@
 
     <style>
         body{padding: 4em; color: rgba(255,255,255,.75); font-family: 'Anonymous Pro', monospace;   background-color: rgb(25,25,25);}
-        main {width: 1200px; margin: 0 auto; padding: 10px; box-shadow: 0px 0px 10px rgb(76, 250, 23);}
+        main {width: 1200px; margin: 0 auto; padding: 10px; box-shadow: 0px 0px 10px rgb(76, 250, 23); border-radius: 25px; background-color: #2f4353; background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);}
         footer {padding: 7px; border: thin solid grey; height: inherit; text-align: center; color: rgb(25,25,25); background-color: rgb(182, 182, 182); margin-top: 20px;}
         button {background-color: chartreuse;}
 
-        h1 {text-align: center; font-size: 30px; color: red}
+        .h1 {text-align: center; font-size: 30px; color: red}
         h2 {text-align: left;}
         
         .lewisfont {font-size: 20px; border: dotted red; background-color: lightgray; color: rgb(25,25,25); border-radius: 10px;}
         .img {border: solid thin black; }
+
+        nav {margin: 10px;}
+        nav li {margin-bottom: 10px;}
 
         .footerfont {text-align: left; max-width: 50%;}
         .lewis {background-color: rgba(255, 255, 255, 0.945); background-image: url(Imagens/OMFIlogo-removebg-preview.png); background-repeat: no-repeat; background-size: cover; height: 600px; width: 400px; float: left; padding: 10px; border: thin solid rgb(255, 0, 0); box-shadow: 0px 0px 10px rgb(255, 0, 0)}
@@ -34,7 +37,7 @@
         </header>
 
         <section class="lewis">
-            <h1>Employee Nº 173</h1>
+            <h1 class="h1">Employee Nº 173</h1>
             <img src="Imagens/LewisHood.jpg" width="250" class="img">
             <p class="lewisfont">Name: Lewis Hood</p>
             <p class="lewisfont">Age: 19</p>
@@ -44,12 +47,23 @@
         </section>
         
         <section class="about">
+            <div class="left">
+                <h6>SSN: 152-10-002</h6>
+                <h6>EPN: 02-173-02</h6>
+            </div>
+
             <h1>About:</h1>
             <p>Lewis Hood is the current Head of Central Intelligence, rising to this post from an intelligence asset. Lewis was hired to OMFI at 02/03/19, being personally recommended by Grey Müller (DECEASED), the previous leader of the Chemical Science Department. Lewis had previous connections to the Ultimate Academy for the Prodigy Youth, being invited by the head teacher Helena Winters (U-Teacher) to serve as a technician. Lewis worked at the academy for eight months along the other employees, with the help of Jonas Munoz (U-Neurosurgeon) and Mariah Schmid (U-Psychologist), Lewis managed to develop the Tri-Neuron Scanner, a machine capable of mapping the entire network of neurons in the human brain. That technology was lost and presumably stolen by the Nightmares. Lewis is among the other staff who disappeared at the night which concluded the Happening.</p>
-            <h1>Family:</h1>
-            <p>Anna Hood is Lewis' twin sister, she was also hired to work at OMFI. Lewis has no other living relatives.</p>
-            <h1>Skills:</h1>
-            <p>U-Talent - Lewis' Ultimate-level talent gives him the skill to deal with complicated machinery, he seems to be better at dealing with hardware (thanks to this knowledge, Houston paired him up with Aime Dashiki).</p>
+           
+            <nav>
+                <li><b>Family</b>: Twin sister (Anna Hood). Lewis has no other living relatives.</li>
+                <li><b>Skills</b>: U-Talent / Robotics / Mechanical engineering.</li>
+                <li><b>Strengths</b>: Expert with technology / Building and controlling robots.</li>
+                <li><b>Weaknesses</b>: Easily truts others / Can be manipulated.</li>
+            </nav>
+
+            <h1>Incidents:</h1>
+            <p>During a field mission in Budapest, Hungary, following a Nightmare lead, Lewis and software expert Aime Dashiki were caught up by a gas attack in an underground nightclub, both of them managed to survive.</p>
         </section>
 
         <footer>
